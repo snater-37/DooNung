@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 32px;
+    background-color: black;
+    padding: 60px;
+    color: white;
+    text-align: center;
+}
+
+/* หัวข้อ */
+main {
+    padding: 50px 50px;
+}
+
+/* กล่องสีเทา */
+.container {
+    height: 60vh;
+    padding: 50px;
+    background-color: #ccc;
+    /* border: 4px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 40px; 
+}
+
+.caption {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.box-item {
+    height: 35vh;
+    width: 23vw;    
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.8s ease 50ms;
+}
+
+.box-item:hover {
+    transform: scale(1.2);
+    border: 2.5px solid yellow;
+}
+
+.box1 {
+    background-color: #FFDAB9;
+    background-image: url('https://th.bing.com/th/id/OIP.r6vTKn02t3gCy7H-i-AQPgHaEK?w=286&h=180&c=7&r=0&o=7&cb=ucfimgc2&dpr=1.3&pid=1.7&rm=3');
+    background-size: cover;
+}
+
+.box2 {
+    background-color: #FFDAB9;
+    background-image: url('https://1.bp.blogspot.com/-4Xe0I_4ZxlQ/XyZC_5_3l0I/AAAAAAAAAUc/aWs_HlVZAfoVFAjI_VfTay8X-2ZgOIKWgCLcBGAsYHQ/s640/b3d66dcea4214b0897ff7130dc055299.jpeg-2.png');
+    background-size: cover;
+}
+
+.box3 {
+    background-color: #FFDAB9;
+    background-image: url('start-up.jpg');
+    background-size: cover;
+}
