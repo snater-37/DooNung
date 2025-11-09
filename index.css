@@ -57,7 +57,7 @@ main {
 .box-item {
     height: 35vh;
     width: 23vw;
-    border: 2px solid white;
+    border: 1.7px solid white;
     border-radius: 20px;
     text-align: center;
     transition: all 0.8s ease 50ms;
