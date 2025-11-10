@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vagabond</title>
+    <script src="https://kit.fontawesome.com/a03ff89bbc.js" crossorigin="anonymous"></script>
 
     <style>
         * {
@@ -17,6 +18,21 @@
             padding: 60px;
             color: white;
             text-align: center;
+        }
+        
+        .icon {
+            text-align: right;
+        }
+
+        .icon a {
+            position: absolute;
+            top: 20px;
+            color: azure;
+            font-size: 32px;
+        }
+
+        .icon a:hover {
+            color: yellow;
         }
 
         nav {
@@ -32,7 +48,7 @@
             }
         }
 
-        a:hover {
+        nav a:hover {
             font-size: 26px;
             text-decoration: underline;
             color: rgb(238, 230, 5) ;
@@ -80,6 +96,11 @@
 <body>
 
     <header>
+        <div class="icon">
+            <a href="index.html">
+                <i class="fa-light fa-solid fa-house"></i>
+            </a>
+        </div>
         <h1>DooNung!</h1>
     </header>
 
